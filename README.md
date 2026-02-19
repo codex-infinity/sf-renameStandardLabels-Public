@@ -13,7 +13,7 @@ This solution enables you to:
 
 Click the link below to install the managed package in your Salesforce organization:
 
-👉 [Install Managed Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=0Hog70000000GETCA2)
+👉 [Install Managed Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000000vr7AAA)
 
 **Namespace:** `sf_jscmv`
 **Package:** `SFRenameUtilityItens`
@@ -26,10 +26,16 @@ Click the link below to install the managed package in your Salesforce organizat
 4. Configure the Utility Bar by adding the `renameStandardLabelsInUtility` component
 5. Labels will be automatically translated based on the user's language
 
+## References & Community
+
+- **Salesforce Known Issue:** [Utility bar item labels are not translated](https://help.salesforce.com/s/issue?id=a028c00000qQ1Y8AAK)
+- **Salesforce Idea:** [Enable translations for Utility Bar items](https://ideas.salesforce.com/s/idea/a0B8W00000GddosUAB/enable-translations-for-utility-bar-items?sfdcIFrameOrigin=null)
+- **Sugestões, bugs e ideias:** [Acesse as issues deste projeto](https://github.com/codex-infinity/sf-renameStandardLabels/issues)
+
 ## Support
 
-For more information about this tool, visit the main repository:
-https://github.com/your-username/sf-renameStandardLabels
+For more information about this tool, please enter in contact with us:
+silascmv@gmail.com
 
 ---
 
