@@ -13,7 +13,7 @@ This solution enables you to:
 
 Click the link below to install the managed package in your Salesforce organization:
 
-👉 [Install Managed Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000000vr7AAA)
+👉 [Install Managed Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000000xcnAAA)
 
 **Namespace:** `sf_jscmv`
 **Package:** `SFRenameUtilityItens`
@@ -39,5 +39,5 @@ silascmv@gmail.com
 
 ---
 
-*Last updated: 2026-02-19*
+*Last updated: 2026-02-20*
 
