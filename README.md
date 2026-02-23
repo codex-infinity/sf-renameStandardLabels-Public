@@ -13,7 +13,7 @@ This solution enables you to:
 
 Click the link below to install the managed package in your Salesforce organization:
 
-👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg700000016TBAAY)
+👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg700000016UnAAI)
 
 **Namespace:** `sf_jscmv`
 **Package:** `SFRenameUtilityItensUnlocked`
