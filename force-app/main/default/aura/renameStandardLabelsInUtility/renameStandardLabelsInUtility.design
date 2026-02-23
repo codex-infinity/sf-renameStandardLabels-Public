@@ -1,0 +1,3 @@
+<design:component label="Rename Standard Labels Utility Item" >
+    <design:attribute name="enableSetPanelHeaderLabel" label="Enable Set Panel Header Label" description="Enable or disable setting the panel header label" default="true"  />
+</design:component>

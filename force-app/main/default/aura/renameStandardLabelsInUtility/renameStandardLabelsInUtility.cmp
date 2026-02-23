@@ -1,0 +1,15 @@
+<aura:component implements="lightning:backgroundUtilityItem" description="Utility Item to rename standard labels in the Utility Bar based on user locale" access="global">
+    <aura:attribute name="hasRenamed" type="Boolean" default="false" />
+    <aura:attribute name="enableSetPanelHeaderLabel" type="Boolean" default="true" access="global"/>
+    <lightning:utilityBarAPI aura:id="utilitybarapi" />
+    <aura:handler event="aura:locationChange" action="{!c.onLocationChange}" />
+    <aura:handler name="render" value="{!this}" action="{!c.onRender}" />
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}" />
+    <aura:handler event="lightning:tabCreated" action="{! c.onTabCreated }"/>
+    <aura:handler event="lightning:tabClosed" action="{! c.onTabClosed }"/>
+    <aura:handler event="lightning:tabFocused" action="{! c.onTabFocused }"/>
+    <aura:handler event="lightning:tabRefreshed" action="{! c.onTabRefreshed }"/>
+    <aura:handler event="lightning:tabReplaced" action="{! c.onTabReplaced}"/>
+    <aura:handler event="lightning:tabUpdated" action="{! c.onTabUpdated}"/>
+
+</aura:component>

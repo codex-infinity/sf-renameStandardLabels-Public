@@ -1,0 +1,45 @@
+<aura:documentation>
+
+    <aura:description>
+        Background Utility Item responsible for dynamically translating and/or renaming
+        Utility Bar item labels according to the logged-in user's language preference.
+
+        This component acts as a workaround for a known Salesforce limitation where
+        standard Utility Bar item labels (such as "History", "Recent Items", etc.)
+        are always displayed in English, regardless of the user's locale.
+
+        Translations are loaded from a JSON Static Resource and applied using
+        lightning:utilityBarAPI.
+    </aura:description>
+
+    <aura:description>
+        How it works:
+        - The component listens to the aura:locationChange event, which is used as an
+          alternative to onInit (not supported for Background Utility Items).
+        - When triggered, the component:
+            1. Retrieves all Utility Bar items using lightning:utilityBarAPI.
+            2. Loads the "labelsAndTranslates" Static Resource (JSON format).
+            3. Detects the user's current locale using $Locale.langLocale.
+            4. Applies the corresponding translations to Utility Bar item labels
+               and panel header labels.
+            5. Marks the process as completed by setting hasRenamed to true.
+    </aura:description>
+
+    <aura:description>
+        Prerequisites:
+        - A Static Resource named "labelsAndTranslates" containing a JSON structure
+          with translations mapped by locale (e.g. en_US, fr, pt_BR).
+        - The component must be added to the Utility Bar as a Background Utility Item.
+    </aura:description>
+
+    <aura:description>
+        Limitations and Notes:
+        - Only Utility Bar item labels present in the translation JSON
+          will be modified.
+        - Labels not defined in the JSON will remain unchanged.
+        - This solution is a workaround until Salesforce provides native support
+          for Utility Bar item translations.
+        - An invalid or malformed JSON resource may prevent label updates.
+    </aura:description>
+
+</aura:documentation>

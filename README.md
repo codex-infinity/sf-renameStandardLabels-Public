@@ -9,18 +9,18 @@ This solution enables you to:
 - ✅ Rename standard English labels if needed
 - ✅ Support multiple languages
 
-## Managed Package Installation
+## Unlocked Package Installation
 
 Click the link below to install the managed package in your Salesforce organization:
 
-👉 [Install Managed Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000000y2bAAA)
+👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg700000016TBAAY)
 
 **Namespace:** `sf_jscmv`
-**Package:** `SFRenameUtilityItens`
+**Package:** `SFRenameUtilityItensUnlocked`
 
 ## How to Use
 
-1. Install the managed package using the link above
+1. Install the Unlocked package using the link above
 2. Go to Setup > Lightning App Builder
 3. Open or create a Lightning App
 4. Configure the Utility Bar by adding the `renameStandardLabelsInUtility` component
@@ -39,5 +39,5 @@ silascmv@gmail.com
 
 ---
 
-*Last updated: 2026-02-20*
+*Last updated: 2026-02-23*
 
