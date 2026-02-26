@@ -13,10 +13,12 @@ This solution enables you to:
 
 Click the link below to install the managed package in your Salesforce organization:
 
-👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg700000016UnAAI)
+👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000001ML3AAM)
 
 **Namespace:** `sf_jscmv`
 **Package:** `SFRenameUtilityItensUnlocked`
+**Package ID:** `04tg70000001ML3AAM`
+
 
 ## How to Use
 
@@ -30,7 +32,7 @@ Click the link below to install the managed package in your Salesforce organizat
 
 - **Salesforce Known Issue:** [Utility bar item labels are not translated](https://help.salesforce.com/s/issue?id=a028c00000qQ1Y8AAK)
 - **Salesforce Idea:** [Enable translations for Utility Bar items](https://ideas.salesforce.com/s/idea/a0B8W00000GddosUAB/enable-translations-for-utility-bar-items?sfdcIFrameOrigin=null)
-- **Sugestões, bugs e ideias:** [Acesse as issues deste projeto](https://github.com/codex-infinity/sf-renameStandardLabels/issues)
+- **Bugs or Ideas:** [Issues](https://github.com/codex-infinity/sf-renameStandardLabels-Public/issues)
 
 ## Support
 
@@ -39,5 +41,5 @@ silascmv@gmail.com
 
 ---
 
-*Last updated: 2026-02-23*
+*Last updated: 2026-02-26*
 
