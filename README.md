@@ -11,13 +11,13 @@ This solution enables you to:
 
 ## Unlocked Package Installation
 
-Click the link below to install the managed package in your Salesforce organization:
+Click the link below to install the unlocked package in your Salesforce organization:
 
-👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000001ML3AAM)
+👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000001MRVAA2)
 
 **Namespace:** `sf_jscmv`
 **Package:** `SFRenameUtilityItensUnlocked`
-**Package ID:** `04tg70000001ML3AAM`
+**Package ID:** `04tg70000001MRVAA2`
 
 
 ## How to Use
@@ -25,8 +25,10 @@ Click the link below to install the managed package in your Salesforce organizat
 1. Install the Unlocked package using the link above
 2. Go to Setup > Lightning App Builder
 3. Open or create a Lightning App
-4. Configure the Utility Bar by adding the `renameStandardLabelsInUtility` component
+4. Configure the Utility Bar by adding the `Rename Standard Labels Utility Item` component
 5. Labels will be automatically translated based on the user's language
+
+* This is a background utility item, so it won't appear in the Utility Bar, but it will rename the standard labels for all users.
 
 ## References & Community
 
