@@ -13,11 +13,11 @@ This solution enables you to:
 
 Click the link below to install the unlocked package in your Salesforce organization:
 
-👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000001MRVAA2)
+👉 [Install Unlocked Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tg70000001R4bAAE)
 
 **Namespace:** `sf_jscmv`
 **Package:** `SFRenameUtilityItensUnlocked`
-**Package ID:** `04tg70000001MRVAA2`
+**Package ID:** `04tg70000001R4bAAE`
 
 
 ## How to Use
@@ -43,5 +43,5 @@ silascmv@gmail.com
 
 ---
 
-*Last updated: 2026-02-26*
+*Last updated: 2026-02-27*
 

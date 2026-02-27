@@ -6,7 +6,12 @@
         helper.handleRename(cmp, 'onRender');
     },
     onInit: function (cmp, event, helper) {
-        helper.handleRename(cmp, 'onInit');
+        try {
+            console.log('[onInit] chamado');
+            helper.handleRename(cmp, 'onInit');
+        } catch (e) {
+            console.error('[onInit] erro inesperado:', e);
+        }
     },
     onTabCreated: function (cmp, event, helper) {
         helper.handleRename(cmp, 'onTabCreated');
